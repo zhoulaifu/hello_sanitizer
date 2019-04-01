@@ -1,0 +1,12 @@
+
+* Purpose
+
+This repo shows that the  GCC compilation option "-fsanitize=address" detects an array-index-out-of-bounds bug. The same bug can not be detected without the comppiler option. 
+
+* How
+
+Run "make". which compiles src/foo.c with the sanitizer. A run-time  error is expected. Then, run "make demo_without_sanitizer" to see results without the sanitizer. 
+
+* Details
+
+See Makefile for the details of the command line. See src/foo.c for the buggy code. 
