@@ -5,7 +5,7 @@ This repo shows that the  GCC compilation option "-fsanitize=address" detects an
 
 * How
 
-Run "make". which compiles src/foo.c with the sanitizer. A run-time  error will be expected. Then, run "make demo_without_sanitizer" to see results without the sanitizer. 
+Run "make" to compile src/foo.c with the sanitizer. A run-time  error will be expected. Then, run "make demo_without_sanitizer" to see results without the sanitizer. 
 
 * Detail
 
